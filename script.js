@@ -27,7 +27,7 @@ if (typeof Lenis !== "undefined") {
 }
 
 const roles = [
-  "Business Development Manager",
+  "Business Associate",
   "Research Analyst",
   "B2C Sales & Marketing Strategist",
   "Lead Generation & CRM Specialist",
