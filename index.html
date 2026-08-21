@@ -3,119 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satyam Nallapu-Portfolio</title>
+    <meta name="description" content="Aariz Ali - Business Analyst & Business Associate portfolio showcasing expertise in requirement gathering, market research, data analytics, and tech-driven growth strategy.">
+    <meta name="keywords" content="Aariz Ali, Business Analyst, Business Associate, Data Analytics, BRD, FRD, Market Research, Python, SQL, MCA">
+    <meta name="author" content="Aariz Ali">
+    <title>Aariz Ali | Business Analyst & Business Associate</title>
+    
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-glow bg-glow-1"></div>
-    <div class="bg-glow bg-glow-2"></div>
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+    <div class="bg-glow bg-glow-1" id="glow1"></div>
+    <div class="bg-glow bg-glow-2" id="glow2"></div>
+    <div class="bg-glow bg-glow-3" id="glow3"></div>
+
     <nav class="glass-nav-wrapper">
-      <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false">
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="site-nav" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <div class="nav-overlay"></div>
       <div class="glass-nav" id="site-nav">
-        <a href="#home">Home</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
 
+    <!-- HERO SECTION -->
     <section class="hero" id="home">
       <div class="hero-content">
-        <h1>Hi, I'm <span class="gradient-text">Aariz Ali</span></h1>
-        <div>
-          <h2 class="typing-text"></h2></div>
-        <p>
-          Software Engineer focused on Full Stack Development and DevOps, with strong skills in Python,
-          JavaScript, and GenAI. I build scalable applications using React.js, Node.js, and Django, and deliver
-          automation-driven, LLM-powered solutions for real-world problems.
+        <div class="badge-tag">
+          <span class="pulse-dot"></span> <i class="fa-solid fa-location-dot"></i> Bengaluru, Karnataka, India
+        </div>
+        <h1>Hi, I'm <span class="gradient-text">Aariz Ali Shekh</span></h1>
+        <div class="typing-container">
+          <h2 class="typing-text"></h2>
+        </div>
+        <p class="hero-bio">
+          Motivated and detail-oriented graduate with hands-on experience in <strong>Research</strong>, <strong>Data Analysis</strong>, and <strong>Business Development</strong>. Passionate about the e-commerce industry with a keen interest in B2C sales strategies, lead generation, and engaging D2C sellers to drive business growth.
         </p>
 
         <div class="hero-buttons">
-          <a href="assets/SA.pdf" class="btn primary" target="_blank" rel="noopener noreferrer">Watch Resume</a>
-          <a href="#contact" class="btn outline">Contact Me</a>
-          
+          <a href="mailto:aarizali015@gmail.com" class="btn primary">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email Me
+          </a>
+          <a href="#contact" class="btn outline">
+            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Let's Connect
+          </a>
+        </div>
+
+        <!-- QUICK IMPACT STATS -->
+        <div class="hero-stats-bar">
+          <div class="stat-box">
+            <span class="stat-number">THE PERFECTREX</span>
+            <span class="stat-label">BD Manager & Research Analyst</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number">BCA</span>
+            <span class="stat-label">Cloud Computing (CMR Univ)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <span class="stat-number">SQL + Excel</span>
+            <span class="stat-label">Data & Market Analytics</span>
+          </div>
         </div>
       </div>
 
       <div class="hero-image-wrap">
         <div class="hero-image">
-          <img src="assets/image.png" alt="Satyam Nallapu profile photo" loading="eager" decoding="async" fetchpriority="high">
+          <img src="image.png" alt="Aariz Ali Shekh - Profile" loading="eager" decoding="async" fetchpriority="high">
+        </div>
+        <div class="hero-badge hero-badge-1">
+          <i class="fa-solid fa-chart-line"></i>
+          <div>
+            <strong>Sales &amp; Marketing</strong>
+            <span>Lead Gen &amp; B2C Strategy</span>
+          </div>
+        </div>
+        <div class="hero-badge hero-badge-2">
+          <i class="fa-solid fa-database"></i>
+          <div>
+            <strong>Data Analytics</strong>
+            <span>SQL &amp; Market Research</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section-block hidden experience-section" id="experience">
-      <h3>Experience</h3>
+    <!-- ABOUT & VALUE PROPOSITION -->
+    <section class="section-block hidden about-section" id="about">
+      <div class="section-header">
+        <span class="section-kicker">Professional Summary</span>
+        <h3>Overview &amp; Core Strengths</h3>
+        <p class="section-subtitle">Combining market research rigor, lead generation acumen, and computer applications technical depth.</p>
+      </div>
 
-      <article class="experience-lab">
-        <div class="exp-top">
-          <div class="exp-role-block">
-            <p class="exp-eyebrow">Internship Role</p>
-            <h4>Web Developer</h4>
-            <p class="experience-company">TechyGuide Pvt. Ltd</p>
+      <div class="value-grid">
+        <article class="value-card">
+          <div class="value-icon gold">
+            <i class="fa-solid fa-handshake"></i>
           </div>
-          <span class="experience-date">Dec 2025</span>
-        </div>
+          <h4>Business Development &amp; B2C Sales</h4>
+          <p>Assisted in executing B2C sales and marketing strategies. Experienced in customer engagement, product recommendation, and lead generation for D2C sellers and e-commerce growth.</p>
+        </article>
 
-        <div class="exp-layout">
-          <aside class="exp-rail" aria-hidden="true">
-            <p class="exp-milestone">Responsive Apps</p>
-            <p class="exp-milestone">API Optimization</p>
-            <p class="exp-milestone">Cross-Device UI</p>
-          </aside>
-
-          <div class="exp-content">
-            <div class="experience-stack">
-              <span class="exp-tag">HTML</span>
-              <span class="exp-tag">CSS</span>
-              <span class="exp-tag">JavaScript</span>
-              <span class="exp-tag">React</span>
-              <span class="exp-tag">Node.js</span>
-              <span class="exp-tag">Express.js</span>
-              <span class="exp-tag">RESTful APIs</span>
-            </div>
-
-            <div class="exp-highlights">
-              <div class="exp-highlight">
-                <h5>Frontend Engineering</h5>
-                <p>Built responsive interfaces with consistent UX across mobile and desktop.</p>
-              </div>
-              <div class="exp-highlight">
-                <h5>Backend Performance</h5>
-                <p>Optimized Express.js REST APIs for faster and more reliable data handling.</p>
-              </div>
-              <div class="exp-highlight">
-                <h5>Full Stack Delivery</h5>
-                <p>Implemented complete web flows with practical, user-first design decisions.</p>
-              </div>
-            </div>
-
-            <ul class="experience-points">
-              <li>Developed responsive web applications using HTML, CSS, JavaScript, Node.js, and React.</li>
-              <li>Built and optimized RESTful APIs using Express.js for high-performance data handling.</li>
-              <li>Implemented full-stack web applications focused on cross-device compatibility and user-friendly UI.</li>
-            </ul>
+        <article class="value-card">
+          <div class="value-icon emerald">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
           </div>
-        </div>
-      </article>
+          <h4>Market Research &amp; Data Analysis</h4>
+          <p>Conducted market research and data analysis to extract actionable business insights. Prepared structured reports and maintained database documentation with high accuracy.</p>
+        </article>
+
+        <article class="value-card">
+          <div class="value-icon cyan">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+          <h4>Technical Acumen (BCA Cloud Computing)</h4>
+          <p>BCA graduate from CMR University skilled in Intermediate SQL, Python automation basics, PHP/MySQL web development, and cloud computing principles.</p>
+        </article>
+      </div>
     </section>
 
+    <!-- EXPERIENCE SECTION -->
+    <section class="section-block hidden experience-section" id="experience">
+      <div class="section-header">
+        <span class="section-kicker">Work History</span>
+        <h3>Professional Experience</h3>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 32px;">
+        <!-- Role 1 -->
+        <article class="experience-lab">
+          <div class="exp-top">
+            <div class="exp-role-block">
+              <p class="exp-eyebrow"><i class="fa-solid fa-briefcase"></i> Current Management Role</p>
+              <h4>Business Development Manager, Sales &amp; Marketing</h4>
+              <p class="experience-company">THE PERFECTREX</p>
+            </div>
+            <span class="experience-date"><i class="fa-regular fa-calendar"></i> 12/2025 – Present</span>
+          </div>
+
+          <div class="exp-layout">
+            <aside class="exp-rail" aria-hidden="true">
+              <p class="exp-milestone">B2C Sales Strategy</p>
+              <p class="exp-milestone">Customer Acquisition</p>
+              <p class="exp-milestone">Lead Generation</p>
+            </aside>
+
+            <div class="exp-content">
+              <div class="experience-stack">
+                <span class="exp-tag">B2C Strategy</span>
+                <span class="exp-tag">Lead Generation</span>
+                <span class="exp-tag">Customer Engagement</span>
+                <span class="exp-tag">Sales &amp; Marketing</span>
+                <span class="exp-tag">D2C Outreach</span>
+                <span class="exp-tag">CRM Tools</span>
+              </div>
+
+              <ul class="experience-points">
+                <li>Assisted in developing and executing B2C sales and marketing strategies for customer growth.</li>
+                <li>Engaged directly with customers to understand specific requirements and recommend tailored products or services.</li>
+                <li>Supported lead generation and customer acquisition initiatives through digital and offline marketing activities.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- Role 2 -->
+        <article class="experience-lab">
+          <div class="exp-top">
+            <div class="exp-role-block">
+              <p class="exp-eyebrow"><i class="fa-solid fa-chart-pie"></i> Internship Experience</p>
+              <h4>Research Analyst Intern</h4>
+              <p class="experience-company">THE PERFECTREX</p>
+            </div>
+            <span class="experience-date"><i class="fa-regular fa-calendar"></i> 02/2025 – 12/2025</span>
+          </div>
+
+          <div class="exp-layout">
+            <aside class="exp-rail" aria-hidden="true">
+              <p class="exp-milestone">Market Intelligence</p>
+              <p class="exp-milestone">Data Reporting</p>
+              <p class="exp-milestone">Task Ownership</p>
+            </aside>
+
+            <div class="exp-content">
+              <div class="experience-stack">
+                <span class="exp-tag">Market Research</span>
+                <span class="exp-tag">Data Analysis</span>
+                <span class="exp-tag">Structured Reporting</span>
+                <span class="exp-tag">Documentation</span>
+                <span class="exp-tag">Independent Task Mgmt</span>
+              </div>
+
+              <ul class="experience-points">
+                <li>Conducted thorough market research and analyzed dataset trends to extract key business insights.</li>
+                <li>Prepared structured research reports and maintained documentation, ensuring strict data accuracy.</li>
+                <li>Gained hands-on experience managing complex tasks independently and meeting strict deadlines.</li>
+                <li>Developed communication skills through regular status updates, team collaboration, and reporting.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
     <section class="section-block hidden education-section" id="education">
-      <h3>Education</h3>
+      <div class="section-header">
+        <span class="section-kicker">Academic Qualifications</span>
+        <h3>Education History</h3>
+      </div>
 
       <div class="education-road">
         <svg class="edu-road-svg" viewBox="0 0 1000 280" aria-hidden="true" preserveAspectRatio="none">
@@ -125,272 +240,186 @@
 
         <article class="edu-stop stop-1">
           <span class="edu-pin" aria-hidden="true"></span>
-          <p class="edu-year">2021 - 2024</p>
-          <h4>Bachelor of Science (B.Sc)</h4>
-          <p class="edu-school">Acharya Nagarjuna University</p>
-          <p class="edu-meta">Score: 80%</p>
+          <p class="edu-year">2019 - 2020</p>
+          <h4>Pre-University Education</h4>
+          <p class="edu-school">Narayana PU College</p>
+          <p class="edu-meta"><i class="fa-solid fa-graduation-cap"></i> High School Qualification</p>
         </article>
 
         <article class="edu-stop stop-2">
           <span class="edu-pin" aria-hidden="true"></span>
-          <p class="edu-year">2024 - 2026</p>
-          <h4>Master of Computer Applications (MCA)</h4>
-          <p class="edu-school">Dravidian University</p>
-          <p class="edu-meta">Score: 82%</p>
-        </article>
-
-        <article class="edu-stop stop-3">
-          <span class="edu-pin" aria-hidden="true"></span>
-          <p class="edu-year">Current</p>
-          <h4>Professional Fellowship in Software Engineering (AI and DevOps)</h4>
-          <p class="edu-school">AlmaBetter and IIT Patna</p>
-          <p class="edu-meta">Status: Pursuing</p>
+          <p class="edu-year">2021 - 2024</p>
+          <h4>Bachelor of Computer Applications (BCA)</h4>
+          <p class="edu-school">CMR University – Specialization in Cloud Computing</p>
+          <p class="edu-meta"><i class="fa-solid fa-award"></i> Graduate Degree</p>
         </article>
       </div>
     </section>
 
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section-block hidden certifications-section" id="certifications">
+      <div class="section-header">
+        <span class="section-kicker">Verified Badges</span>
+        <h3>Certifications &amp; Credentials</h3>
+      </div>
+
+      <div class="skills-categories" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="skills-group">
+          <div class="group-header">
+            <i class="fa-solid fa-award group-icon gold"></i>
+            <h4>Data Analytics &amp; Visualization</h4>
+          </div>
+          <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 12px;">Accenture North America (Forage)</p>
+          <div class="skills-chips">
+            <span class="chip"><i class="fa-solid fa-chart-line"></i> Data Cleaning &amp; Modeling</span>
+            <span class="chip"><i class="fa-solid fa-pie-chart"></i> Visual Storytelling</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <div class="group-header">
+            <i class="fa-solid fa-shield-halved group-icon cyan"></i>
+            <h4>Security Analyst Simulation</h4>
+          </div>
+          <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 12px;">Tata Cybersecurity (Forage)</p>
+          <div class="skills-chips">
+            <span class="chip"><i class="fa-solid fa-lock"></i> Threat Analysis</span>
+            <span class="chip"><i class="fa-solid fa-network-wired"></i> Security Simulation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
     <section class="section-block hidden skills-section" id="skills">
-      <h3>Skills I Use</h3>
+      <div class="section-header">
+        <span class="section-kicker">Core Competencies</span>
+        <h3>Technical &amp; Business Skills</h3>
+        <p class="section-subtitle">Proficiencies across business development, databases, research tools, and spoken languages.</p>
+      </div>
 
-      <div class="skills-icon-grid">
-        <article class="skill-icon-card">
-          <i class="devicon-python-plain colored"></i>
-          <p>Python</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-javascript-plain colored"></i>
-          <p>JavaScript</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-java-plain colored"></i>
-          <p>Java</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-html5-plain colored"></i>
-          <p>HTML5</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-css3-plain colored"></i>
-          <p>CSS3</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-django-plain"></i>
-          <p>Django</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-numpy-plain colored"></i>
-          <p>NumPy</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-pandas-plain colored"></i>
-          <p>Pandas</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-scikitlearn-plain colored"></i>
-          <p>Scikit-Learn</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">MPL</span>
-          <p>Matplotlib</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">SBN</span>
-          <p>Seaborn</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-react-original colored"></i>
-          <p>React.js</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-tailwindcss-original colored"></i>
-          <p>Tailwind CSS</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-bootstrap-plain colored"></i>
-          <p>Bootstrap</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-nodejs-plain colored"></i>
-          <p>Node.js</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-express-original"></i>
-          <p>Express.js</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">API</span>
-          <p>RESTful API</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">CRUD</span>
-          <p>CRUD Ops</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">AI</span>
-          <p>Generative AI</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">LLM</span>
-          <p>LLM Integration</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">LSTM</span>
-          <p>LSTM</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">LR</span>
-          <p>Linear Regression</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">MLP</span>
-          <p>MLP</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-docker-plain colored"></i>
-          <p>Docker</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-git-plain colored"></i>
-          <p>Git</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-github-original"></i>
-          <p>GitHub</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-postman-plain colored"></i>
-          <p>Postman</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-vscode-plain colored"></i>
-          <p>VS Code</p>
-        </article>
-        <article class="skill-icon-card">
-          <span class="skill-fallback">CI/CD</span>
-          <p>CI/CD</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-mongodb-plain colored"></i>
-          <p>MongoDB</p>
-        </article>
-        <article class="skill-icon-card">
-          <i class="devicon-mysql-plain colored"></i>
-          <p>MySQL</p>
-        </article>
+      <div class="skills-categories">
+        <!-- Business Development & CRM -->
+        <div class="skills-group">
+          <div class="group-header">
+            <i class="fa-solid fa-bullseye group-icon gold"></i>
+            <h4>Lead Generation &amp; CRM</h4>
+          </div>
+          <div class="skills-chips">
+            <span class="chip"><i class="fa-solid fa-paper-plane"></i> Lead Generation</span>
+            <span class="chip"><i class="fa-solid fa-handshake"></i> B2C Sales &amp; Pitching</span>
+            <span class="chip"><i class="fa-solid fa-user-check"></i> D2C Seller Engagement</span>
+            <span class="chip"><i class="fa-solid fa-cubes"></i> HubSpot (Familiar)</span>
+            <span class="chip"><i class="fa-solid fa-address-book"></i> Zoho CRM (Familiar)</span>
+          </div>
+        </div>
+
+        <!-- Technical & Data Skills -->
+        <div class="skills-group">
+          <div class="group-header">
+            <i class="fa-solid fa-database group-icon cyan"></i>
+            <h4>Technical &amp; Database Skills</h4>
+          </div>
+          <div class="skills-chips">
+            <span class="chip"><i class="devicon-mysql-plain colored"></i> SQL (Intermediate)</span>
+            <span class="chip"><i class="devicon-python-plain colored"></i> Python (Automation &amp; Analytics)</span>
+            <span class="chip"><i class="devicon-php-plain colored"></i> PHP &amp; MySQL</span>
+            <span class="chip"><i class="devicon-html5-plain colored"></i> HTML5 &amp; CSS3</span>
+            <span class="chip"><i class="fa-solid fa-cloud"></i> Cloud Computing Fundamentals</span>
+          </div>
+        </div>
+
+        <!-- Productivity & Analytical Tools -->
+        <div class="skills-group">
+          <div class="group-header">
+            <i class="fa-solid fa-file-excel group-icon emerald"></i>
+            <h4>Productivity &amp; Data Tools</h4>
+          </div>
+          <div class="skills-chips">
+            <span class="chip"><i class="fa-solid fa-table"></i> Microsoft Excel</span>
+            <span class="chip"><i class="fa-solid fa-sheet-plastic"></i> Google Sheets</span>
+            <span class="chip"><i class="fa-solid fa-magnifying-glass"></i> Market Research</span>
+            <span class="chip"><i class="fa-solid fa-comments"></i> Relationship Building</span>
+          </div>
+        </div>
+
+        <!-- Languages Spoken -->
+        <div class="skills-group">
+          <div class="group-header">
+            <i class="fa-solid fa-language group-icon purple"></i>
+            <h4>Languages</h4>
+          </div>
+          <div class="skills-chips">
+            <span class="chip"><i class="fa-solid fa-check-double"></i> Fluent: English</span>
+            <span class="chip"><i class="fa-solid fa-check-double"></i> Fluent: Hindi</span>
+            <span class="chip"><i class="fa-solid fa-check-double"></i> Fluent: Kannada</span>
+            <span class="chip"><i class="fa-solid fa-check"></i> Spoken: Tamil</span>
+            <span class="chip"><i class="fa-solid fa-check"></i> Spoken: Telugu</span>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- CASE STUDIES / PROJECTS SECTION -->
     <section class="section-block hidden projects-section" id="projects">
-      <h3>Projects</h3>
+      <div class="section-header">
+        <span class="section-kicker">Portfolio Projects</span>
+        <h3>Technical &amp; Academic Projects</h3>
+        <p class="section-subtitle">Hands-on applications built during BCA Cloud Computing degree.</p>
+      </div>
 
       <div class="repo-list">
+        <!-- Project 1 -->
         <article class="repo-card">
           <div class="repo-head">
             <div class="repo-title-wrap">
-              <span class="repo-icon" aria-hidden="true">&#9633;</span>
-              <h4>mockupcraft</h4>
+              <span class="case-badge cyan">Web & DB System</span>
+              <h4>Car Showroom Management System</h4>
             </div>
-            <span class="repo-visibility">Public</span>
+            <span class="repo-visibility">PHP &amp; MySQL</span>
           </div>
-          <p class="repo-desc">Premium client-side screenshot mockup generator with custom gradients, browser/device bezels, shadow controls, text overlays, and crisp PNG exports.</p>
+          <p class="repo-desc">Developed a dynamic web application for managing showroom vehicle inventory, client bookings, and database operations.</p>
           <div class="repo-tags">
-            <span class="repo-tag">HTML5 Canvas</span>
-            <span class="repo-tag">Vite</span>
-            <span class="repo-tag">JavaScript</span>
-            <span class="repo-tag">CSS3</span>
+            <span class="repo-tag">PHP</span>
+            <span class="repo-tag">MySQL</span>
+            <span class="repo-tag">Inventory Mgmt</span>
+            <span class="repo-tag">Web App</span>
           </div>
           <div class="repo-divider"></div>
           <div class="repo-footer">
             <div class="repo-meta">
-              <span class="repo-lang"><span class="repo-dot dot-js"></span>JavaScript</span>
-              <span class="repo-stat">Star 54</span>
-              <span class="repo-stat">Fork 8</span>
+              <span class="repo-lang"><span class="repo-dot dot-js"></span>PHP App</span>
+              <span class="repo-stat"><i class="fa-solid fa-car"></i> Showroom DB</span>
             </div>
-            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779/mockupcraft" aria-label="Open GitHub repository">
+            <a class="repo-btn repo-btn-icon" href="https://github.com/aarizali" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub repository">
               <i class="devicon-github-original" aria-hidden="true"></i>
             </a>
           </div>
         </article>
 
+        <!-- Project 2 -->
         <article class="repo-card">
           <div class="repo-head">
             <div class="repo-title-wrap">
-              <span class="repo-icon" aria-hidden="true">&#9633;</span>
-              <h4>messenger-clone</h4>
+              <span class="case-badge purple">Capstone Project</span>
+              <h4>Online Bookstore Platform</h4>
             </div>
-            <span class="repo-visibility">Public</span>
+            <span class="repo-visibility">Full Stack</span>
           </div>
-          <p class="repo-desc">Real-time chat application with responsive messaging UI, secure login flow, and stable backend communication.</p>
+          <p class="repo-desc">Created a user-friendly e-commerce platform for online book sales integrated with relational database management and smooth ordering flows.</p>
           <div class="repo-tags">
-            <span class="repo-tag">React.js</span>
-            <span class="repo-tag">Node.js</span>
-            <span class="repo-tag">MongoDB</span>
-            <span class="repo-tag">Auth</span>
+            <span class="repo-tag">E-Commerce</span>
+            <span class="repo-tag">Database Integration</span>
+            <span class="repo-tag">User UX</span>
+            <span class="repo-tag">Full Stack</span>
           </div>
           <div class="repo-divider"></div>
           <div class="repo-footer">
             <div class="repo-meta">
-              <span class="repo-lang"><span class="repo-dot dot-js"></span>JavaScript</span>
-              <span class="repo-stat">Star 42</span>
-              <span class="repo-stat">Fork 18</span>
+              <span class="repo-lang"><span class="repo-dot dot-web"></span>E-Commerce</span>
+              <span class="repo-stat"><i class="fa-solid fa-book"></i> Capstone</span>
             </div>
-            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779" aria-label="Open GitHub repository">
-              <i class="devicon-github-original" aria-hidden="true"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="repo-card">
-          <div class="repo-head">
-            <div class="repo-title-wrap">
-              <span class="repo-icon" aria-hidden="true">&#9633;</span>
-              <h4>stock-predict-mlp</h4>
-            </div>
-            <span class="repo-visibility">Public</span>
-          </div>
-          <p class="repo-desc">Machine learning project for stock trend forecasting using MLP, LSTM, and Linear Regression with Python data pipelines.</p>
-          <div class="repo-tags">
-            <span class="repo-tag">Python</span>
-            <span class="repo-tag">LSTM</span>
-            <span class="repo-tag">Linear Regression</span>
-            <span class="repo-tag">MLP</span>
-          </div>
-          <div class="repo-divider"></div>
-          <div class="repo-footer">
-            <div class="repo-meta">
-              <span class="repo-lang"><span class="repo-dot dot-py"></span>Python</span>
-              <span class="repo-stat">Star 35</span>
-              <span class="repo-stat">Fork 14</span>
-            </div>
-            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779" aria-label="Open GitHub repository">
-              <i class="devicon-github-original" aria-hidden="true"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="repo-card">
-          <div class="repo-head">
-            <div class="repo-title-wrap">
-              <span class="repo-icon" aria-hidden="true">&#9633;</span>
-              <h4>techyguide-website</h4>
-            </div>
-            <span class="repo-visibility">Public</span>
-          </div>
-          <p class="repo-desc">Business website with modern sections, responsive layouts, and user-focused navigation across devices. TechyGuide E-Commerce Website.</p>
-          <div class="repo-tags">
-            <span class="repo-tag">HTML5</span>
-            <span class="repo-tag">CSS3</span>
-            <span class="repo-tag">JavaScript</span>
-            <span class="repo-tag">Responsive UI</span>
-          </div>
-          <div class="repo-divider"></div>
-          <div class="repo-footer">
-            <div class="repo-meta">
-              <span class="repo-lang"><span class="repo-dot dot-web"></span>Frontend</span>
-              <span class="repo-stat">Star 29</span>
-              <span class="repo-stat">Fork 11</span>
-            </div>
-            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779" aria-label="Open GitHub repository">
+            <a class="repo-btn repo-btn-icon" href="https://github.com/aarizali" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub repository">
               <i class="devicon-github-original" aria-hidden="true"></i>
             </a>
           </div>
@@ -398,57 +427,105 @@
       </div>
     </section>
 
-    
-
-    <section class="section-block hidden certifications-section" id="certifications">
-      <h3>Certifications</h3>
-
-      <div class="cert-grid">
-        <article class="cert-card">
-          <div class="cert-image">
-            <img src="assets/almabetter.jpeg" alt="Professional Fellowship in Software Engineering (AI and DevOps) certificate" loading="lazy" decoding="async">
-          </div>
-          <div class="cert-content">
-            <h4>Professional Fellowship in Software Engineering (AI and DevOps)</h4>
-            <p class="cert-org">AlmaBetter and IIT Patna</p>
-          </div>
-        </article>
-
-        <article class="cert-card">
-          <div class="cert-image">
-            <img src="assets/pythonfullstack.jpeg" alt="Python Full-Stack Development certificate" loading="lazy" decoding="async">
-          </div>
-          <div class="cert-content">
-            <h4>Python Full-Stack Development</h4>
-            <p class="cert-org">PythonLife</p>
-          </div>
-        </article>
-      </div>
-
-    </section>
-
+    <!-- CONTACT SECTION -->
     <section class="section-block hidden contact-section" id="contact">
-      <h3>Contact Me</h3>
-      <div class="contact-icons" aria-label="Social links">
-        <a class="contact-icon" href="tel:+917674823570" aria-label="Call">
-          <i class="fa-solid fa-phone" aria-hidden="true"></i>
-        </a>
-        <a class="contact-icon" href="https://wa.me/917674823570" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-        </a>
-        <a class="contact-icon" href="mailto:satyamreddy7674@gmail.com" aria-label="Email">
-          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-        </a>
-        <a class="contact-icon" href="https://www.linkedin.com/in/satyam-nallapu-a11817271" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-        </a>
-        <a class="contact-icon" href="https://github.com/satyam779" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <i class="fa-brands fa-github" aria-hidden="true"></i>
-        </a>
+      <div class="section-header">
+        <span class="section-kicker">Get In Touch</span>
+        <h3>Let's Build Something Great Together</h3>
+        <p class="section-subtitle">Open for full-time business development, sales, and research analyst opportunities in Bengaluru &amp; remote.</p>
+      </div>
 
+      <div class="contact-container">
+        <div class="contact-card-grid">
+          <a class="contact-card" href="tel:+919916250018" aria-label="Call Aariz Ali Shekh">
+            <div class="contact-card-icon gold">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="contact-card-info">
+              <span>Direct Phone</span>
+              <strong>+91 99162 50018</strong>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://wa.me/919916250018" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <div class="contact-card-icon emerald">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            </div>
+            <div class="contact-card-info">
+              <span>WhatsApp Chat</span>
+              <strong>+91 99162 50018</strong>
+            </div>
+          </a>
+
+          <a class="contact-card" href="mailto:aarizali015@gmail.com" aria-label="Send Email to Aariz Ali Shekh">
+            <div class="contact-card-icon cyan">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="contact-card-info">
+              <span>Email Address</span>
+              <strong>aarizali015@gmail.com</strong>
+            </div>
+          </a>
+
+          <div class="contact-card">
+            <div class="contact-card-icon blue">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            </div>
+            <div class="contact-card-info">
+              <span>Location</span>
+              <strong>Bengaluru, Karnataka, India</strong>
+            </div>
+          </div>
+
+          <a class="contact-card" href="https://github.com/aarizali" target="_blank" rel="noopener noreferrer" aria-label="Explore GitHub">
+            <div class="contact-card-icon purple">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </div>
+            <div class="contact-card-info">
+              <span>GitHub Portfolio</span>
+              <strong>github.com/aarizali</strong>
+            </div>
+          </a>
+        </div>
+
+        <!-- QUICK MESSAGE FORM -->
+        <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <h4>Send Me a Direct Message</h4>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="senderName">Your Name</label>
+              <input type="text" id="senderName" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="senderEmail">Your Email</label>
+              <input type="email" id="senderEmail" required placeholder="john@company.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="msgSubject">Subject</label>
+            <input type="text" id="msgSubject" required placeholder="Business Opportunity / Research Analyst Role">
+          </div>
+          <div class="form-group">
+            <label for="msgBody">Message</label>
+            <textarea id="msgBody" rows="4" required placeholder="Hi Aariz, I'd like to discuss a Business Development / Research Analyst opportunity with your background..."></textarea>
+          </div>
+          <button type="submit" class="btn primary submit-btn">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
       </div>
     </section>
 
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; 2026 <strong>Aariz Ali Shekh</strong>. Business Development Manager &amp; Research Analyst.</p>
+        <p class="footer-tagline">Bengaluru, Karnataka, India | aarizali015@gmail.com | +91 99162 50018</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
     <script src="script.js" defer></script>
 </body>
 </html>
