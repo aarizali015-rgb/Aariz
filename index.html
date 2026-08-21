@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Nallapu-Portfolio</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <nav class="glass-nav-wrapper">
+      <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-overlay"></div>
+      <div class="glass-nav" id="site-nav">
+        <a href="#home">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="gradient-text">Aariz Ali</span></h1>
+        <div>
+          <h2 class="typing-text"></h2></div>
+        <p>
+          Software Engineer focused on Full Stack Development and DevOps, with strong skills in Python,
+          JavaScript, and GenAI. I build scalable applications using React.js, Node.js, and Django, and deliver
+          automation-driven, LLM-powered solutions for real-world problems.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="assets/SA.pdf" class="btn primary" target="_blank" rel="noopener noreferrer">Watch Resume</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+          
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <div class="hero-image">
+          <img src="assets/image.png" alt="Satyam Nallapu profile photo" loading="eager" decoding="async" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block hidden experience-section" id="experience">
+      <h3>Experience</h3>
+
+      <article class="experience-lab">
+        <div class="exp-top">
+          <div class="exp-role-block">
+            <p class="exp-eyebrow">Internship Role</p>
+            <h4>Web Developer</h4>
+            <p class="experience-company">TechyGuide Pvt. Ltd</p>
+          </div>
+          <span class="experience-date">Dec 2025</span>
+        </div>
+
+        <div class="exp-layout">
+          <aside class="exp-rail" aria-hidden="true">
+            <p class="exp-milestone">Responsive Apps</p>
+            <p class="exp-milestone">API Optimization</p>
+            <p class="exp-milestone">Cross-Device UI</p>
+          </aside>
+
+          <div class="exp-content">
+            <div class="experience-stack">
+              <span class="exp-tag">HTML</span>
+              <span class="exp-tag">CSS</span>
+              <span class="exp-tag">JavaScript</span>
+              <span class="exp-tag">React</span>
+              <span class="exp-tag">Node.js</span>
+              <span class="exp-tag">Express.js</span>
+              <span class="exp-tag">RESTful APIs</span>
+            </div>
+
+            <div class="exp-highlights">
+              <div class="exp-highlight">
+                <h5>Frontend Engineering</h5>
+                <p>Built responsive interfaces with consistent UX across mobile and desktop.</p>
+              </div>
+              <div class="exp-highlight">
+                <h5>Backend Performance</h5>
+                <p>Optimized Express.js REST APIs for faster and more reliable data handling.</p>
+              </div>
+              <div class="exp-highlight">
+                <h5>Full Stack Delivery</h5>
+                <p>Implemented complete web flows with practical, user-first design decisions.</p>
+              </div>
+            </div>
+
+            <ul class="experience-points">
+              <li>Developed responsive web applications using HTML, CSS, JavaScript, Node.js, and React.</li>
+              <li>Built and optimized RESTful APIs using Express.js for high-performance data handling.</li>
+              <li>Implemented full-stack web applications focused on cross-device compatibility and user-friendly UI.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-block hidden education-section" id="education">
+      <h3>Education</h3>
+
+      <div class="education-road">
+        <svg class="edu-road-svg" viewBox="0 0 1000 280" aria-hidden="true" preserveAspectRatio="none">
+          <path class="edu-road-path" d="M40 230 C 210 10, 360 20, 500 150 S 800 270, 960 60"></path>
+          <path class="edu-road-dash" d="M40 230 C 210 10, 360 20, 500 150 S 800 270, 960 60"></path>
+        </svg>
+
+        <article class="edu-stop stop-1">
+          <span class="edu-pin" aria-hidden="true"></span>
+          <p class="edu-year">2021 - 2024</p>
+          <h4>Bachelor of Science (B.Sc)</h4>
+          <p class="edu-school">Acharya Nagarjuna University</p>
+          <p class="edu-meta">Score: 80%</p>
+        </article>
+
+        <article class="edu-stop stop-2">
+          <span class="edu-pin" aria-hidden="true"></span>
+          <p class="edu-year">2024 - 2026</p>
+          <h4>Master of Computer Applications (MCA)</h4>
+          <p class="edu-school">Dravidian University</p>
+          <p class="edu-meta">Score: 82%</p>
+        </article>
+
+        <article class="edu-stop stop-3">
+          <span class="edu-pin" aria-hidden="true"></span>
+          <p class="edu-year">Current</p>
+          <h4>Professional Fellowship in Software Engineering (AI and DevOps)</h4>
+          <p class="edu-school">AlmaBetter and IIT Patna</p>
+          <p class="edu-meta">Status: Pursuing</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block hidden skills-section" id="skills">
+      <h3>Skills I Use</h3>
+
+      <div class="skills-icon-grid">
+        <article class="skill-icon-card">
+          <i class="devicon-python-plain colored"></i>
+          <p>Python</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <p>JavaScript</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-java-plain colored"></i>
+          <p>Java</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML5</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-css3-plain colored"></i>
+          <p>CSS3</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-django-plain"></i>
+          <p>Django</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-numpy-plain colored"></i>
+          <p>NumPy</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-pandas-plain colored"></i>
+          <p>Pandas</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-scikitlearn-plain colored"></i>
+          <p>Scikit-Learn</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">MPL</span>
+          <p>Matplotlib</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">SBN</span>
+          <p>Seaborn</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-react-original colored"></i>
+          <p>React.js</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-tailwindcss-original colored"></i>
+          <p>Tailwind CSS</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-bootstrap-plain colored"></i>
+          <p>Bootstrap</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-nodejs-plain colored"></i>
+          <p>Node.js</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-express-original"></i>
+          <p>Express.js</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">API</span>
+          <p>RESTful API</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">CRUD</span>
+          <p>CRUD Ops</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">AI</span>
+          <p>Generative AI</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">LLM</span>
+          <p>LLM Integration</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">LSTM</span>
+          <p>LSTM</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">LR</span>
+          <p>Linear Regression</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">MLP</span>
+          <p>MLP</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-docker-plain colored"></i>
+          <p>Docker</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-git-plain colored"></i>
+          <p>Git</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-github-original"></i>
+          <p>GitHub</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-postman-plain colored"></i>
+          <p>Postman</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-vscode-plain colored"></i>
+          <p>VS Code</p>
+        </article>
+        <article class="skill-icon-card">
+          <span class="skill-fallback">CI/CD</span>
+          <p>CI/CD</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-mongodb-plain colored"></i>
+          <p>MongoDB</p>
+        </article>
+        <article class="skill-icon-card">
+          <i class="devicon-mysql-plain colored"></i>
+          <p>MySQL</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block hidden projects-section" id="projects">
+      <h3>Projects</h3>
+
+      <div class="repo-list">
+        <article class="repo-card">
+          <div class="repo-head">
+            <div class="repo-title-wrap">
+              <span class="repo-icon" aria-hidden="true">&#9633;</span>
+              <h4>mockupcraft</h4>
+            </div>
+            <span class="repo-visibility">Public</span>
+          </div>
+          <p class="repo-desc">Premium client-side screenshot mockup generator with custom gradients, browser/device bezels, shadow controls, text overlays, and crisp PNG exports.</p>
+          <div class="repo-tags">
+            <span class="repo-tag">HTML5 Canvas</span>
+            <span class="repo-tag">Vite</span>
+            <span class="repo-tag">JavaScript</span>
+            <span class="repo-tag">CSS3</span>
+          </div>
+          <div class="repo-divider"></div>
+          <div class="repo-footer">
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="repo-dot dot-js"></span>JavaScript</span>
+              <span class="repo-stat">Star 54</span>
+              <span class="repo-stat">Fork 8</span>
+            </div>
+            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779/mockupcraft" aria-label="Open GitHub repository">
+              <i class="devicon-github-original" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-head">
+            <div class="repo-title-wrap">
+              <span class="repo-icon" aria-hidden="true">&#9633;</span>
+              <h4>messenger-clone</h4>
+            </div>
+            <span class="repo-visibility">Public</span>
+          </div>
+          <p class="repo-desc">Real-time chat application with responsive messaging UI, secure login flow, and stable backend communication.</p>
+          <div class="repo-tags">
+            <span class="repo-tag">React.js</span>
+            <span class="repo-tag">Node.js</span>
+            <span class="repo-tag">MongoDB</span>
+            <span class="repo-tag">Auth</span>
+          </div>
+          <div class="repo-divider"></div>
+          <div class="repo-footer">
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="repo-dot dot-js"></span>JavaScript</span>
+              <span class="repo-stat">Star 42</span>
+              <span class="repo-stat">Fork 18</span>
+            </div>
+            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779" aria-label="Open GitHub repository">
+              <i class="devicon-github-original" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-head">
+            <div class="repo-title-wrap">
+              <span class="repo-icon" aria-hidden="true">&#9633;</span>
+              <h4>stock-predict-mlp</h4>
+            </div>
+            <span class="repo-visibility">Public</span>
+          </div>
+          <p class="repo-desc">Machine learning project for stock trend forecasting using MLP, LSTM, and Linear Regression with Python data pipelines.</p>
+          <div class="repo-tags">
+            <span class="repo-tag">Python</span>
+            <span class="repo-tag">LSTM</span>
+            <span class="repo-tag">Linear Regression</span>
+            <span class="repo-tag">MLP</span>
+          </div>
+          <div class="repo-divider"></div>
+          <div class="repo-footer">
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="repo-dot dot-py"></span>Python</span>
+              <span class="repo-stat">Star 35</span>
+              <span class="repo-stat">Fork 14</span>
+            </div>
+            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779" aria-label="Open GitHub repository">
+              <i class="devicon-github-original" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-head">
+            <div class="repo-title-wrap">
+              <span class="repo-icon" aria-hidden="true">&#9633;</span>
+              <h4>techyguide-website</h4>
+            </div>
+            <span class="repo-visibility">Public</span>
+          </div>
+          <p class="repo-desc">Business website with modern sections, responsive layouts, and user-focused navigation across devices. TechyGuide E-Commerce Website.</p>
+          <div class="repo-tags">
+            <span class="repo-tag">HTML5</span>
+            <span class="repo-tag">CSS3</span>
+            <span class="repo-tag">JavaScript</span>
+            <span class="repo-tag">Responsive UI</span>
+          </div>
+          <div class="repo-divider"></div>
+          <div class="repo-footer">
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="repo-dot dot-web"></span>Frontend</span>
+              <span class="repo-stat">Star 29</span>
+              <span class="repo-stat">Fork 11</span>
+            </div>
+            <a class="repo-btn repo-btn-icon" href="https://github.com/satyam779" aria-label="Open GitHub repository">
+              <i class="devicon-github-original" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+
+    <section class="section-block hidden certifications-section" id="certifications">
+      <h3>Certifications</h3>
+
+      <div class="cert-grid">
+        <article class="cert-card">
+          <div class="cert-image">
+            <img src="assets/almabetter.jpeg" alt="Professional Fellowship in Software Engineering (AI and DevOps) certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-content">
+            <h4>Professional Fellowship in Software Engineering (AI and DevOps)</h4>
+            <p class="cert-org">AlmaBetter and IIT Patna</p>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-image">
+            <img src="assets/pythonfullstack.jpeg" alt="Python Full-Stack Development certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-content">
+            <h4>Python Full-Stack Development</h4>
+            <p class="cert-org">PythonLife</p>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="section-block hidden contact-section" id="contact">
+      <h3>Contact Me</h3>
+      <div class="contact-icons" aria-label="Social links">
+        <a class="contact-icon" href="tel:+917674823570" aria-label="Call">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        </a>
+        <a class="contact-icon" href="https://wa.me/917674823570" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <a class="contact-icon" href="mailto:satyamreddy7674@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        </a>
+        <a class="contact-icon" href="https://www.linkedin.com/in/satyam-nallapu-a11817271" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a class="contact-icon" href="https://github.com/satyam779" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+
+      </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
